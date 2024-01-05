@@ -1,0 +1,36 @@
+.head-font{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th {
+    background-color: #CFE2F3;
+  }
+  
+
+  .example-wrapper {
+    position: absolute;
+    z-index:1;
+  }
+  
+  .kendo-dialog {
+    overflow: hidden;
+    overflow-y: auto;
+  }
+    
+  
+  

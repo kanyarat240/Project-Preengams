@@ -1,0 +1,249 @@
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\appsettings.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Presentation.exe
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Presentation.deps.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Presentation.runtimeconfig.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Presentation.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Presentation.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\AspNetCoreLineLogin.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\BCrypt.Net-Next.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\SecurityDriven.Core.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\EFCore.NamingConventions.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\IdentityModel.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\MediatR.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Npgsql.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Scrutor.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Scrutor.AspNetCore.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Serilog.Sinks.Seq.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Application.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\PersistensePostgresql.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Application.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\PersistensePostgresql.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Domain.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\bin\Debug\net7.0\Line.Messaging.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfoInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfo.cs
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.build.Presentation.props
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.props
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Presentation.props
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\scopedcss\bundle\Presentation.styles.css
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.csproj.CopyComplete
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\refint\Presentation.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\Presentation.genruntimeconfig.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Presentation\obj\Debug\net7.0\ref\Presentation.dll
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.csproj.AssemblyReference.cache
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfoInputs.cache
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfo.cs
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.csproj.CoreCompileInputs.cache
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cs
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cache
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.dll
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\refint\Presentation.dll
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.pdb
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\appsettings.Development.json
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\appsettings.json
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Presentation.exe
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Presentation.deps.json
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Presentation.runtimeconfig.json
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Presentation.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Presentation.pdb
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\AspNetCoreLineLogin.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\SecurityDriven.Core.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\EFCore.NamingConventions.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\IdentityModel.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\MediatR.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Npgsql.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Scrutor.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Scrutor.AspNetCore.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.AspNetCore.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.File.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.Seq.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Application.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Domain.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Infrastructure.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\PersistensePostgresql.dll
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Infrastructure.pdb
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Application.pdb
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\PersistensePostgresql.pdb
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Domain.pdb
+D:\Project_Preengam\Presentation\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.build.Presentation.props
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.props
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Presentation.props
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets.build.json
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\staticwebassets.development.json
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\scopedcss\bundle\Presentation.styles.css
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.csproj.CopyComplete
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\Presentation.genruntimeconfig.cache
+D:\Project_Preengam\Presentation\obj\Debug\net7.0\ref\Presentation.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\appsettings.Development.json
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\appsettings.json
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Presentation.exe
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Presentation.deps.json
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Presentation.runtimeconfig.json
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Presentation.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Presentation.pdb
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\AspNetCoreLineLogin.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\BCrypt.Net-Next.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\SecurityDriven.Core.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\EFCore.NamingConventions.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\IdentityModel.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\MediatR.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\MediatR.Contracts.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Npgsql.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Scrutor.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Scrutor.AspNetCore.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.AspNetCore.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.File.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Serilog.Sinks.Seq.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Application.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Domain.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Infrastructure.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\PersistensePostgresql.dll
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Infrastructure.pdb
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Application.pdb
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\PersistensePostgresql.pdb
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Domain.pdb
+D:\Project-Preengam\Presentation\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.csproj.AssemblyReference.cache
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfoInputs.cache
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.AssemblyInfo.cs
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.csproj.CoreCompileInputs.cache
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cs
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.MvcApplicationPartsAssemblyInfo.cache
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.build.Presentation.props
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Presentation.props
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Presentation.props
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets.build.json
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\staticwebassets.development.json
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\scopedcss\bundle\Presentation.styles.css
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.csproj.CopyComplete
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.dll
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\refint\Presentation.dll
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.pdb
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\Presentation.genruntimeconfig.cache
+D:\Project-Preengam\Presentation\obj\Debug\net7.0\ref\Presentation.dll

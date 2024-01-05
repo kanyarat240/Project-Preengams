@@ -1,0 +1,10 @@
+<input 
+      type="text" 
+      id="search" 
+      class="form-control form-control-solid form-select-sm w-300px h-40px mx-0 ml-auto"
+      [style.backgroundColor]="backgroundColor"
+      [placeholder]="placeholder"
+      [(ngModel)]="searchQuery" 
+      (input)="onInput()" 
+      (keyup.enter)="onEnter()" 
+    />

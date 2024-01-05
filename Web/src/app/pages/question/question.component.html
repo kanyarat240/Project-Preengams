@@ -1,0 +1,40 @@
+<!-- question.component.html -->
+<div class="background-container">
+    <img src="./assets/media/patterns/PreengamHome.jpg" alt="Background Image" class="background-image">
+  </div>
+  <br><br><br><br><br><br><br><br><br><br>
+<div class="card p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+    <br><br>
+    <h2 class="text-white">คำถามที่พบบ่อย</h2>
+    <br><br>
+    <hr style="border-color: white;">
+    <div *ngFor="let item of items; let i = index">
+        <div class="py-3 px-6 clickable" (click)="toggleCompanyDetails(i)">
+            <div class="row">
+                <div class="col-11">
+                    <label style="color: white; font-size: 24px;">{{ item.question }}</label>
+                </div>
+                <div class="col-1">
+                    <button class="btn">
+                        <i class="fa fa-solid fa-chevron-down"
+                            [ngClass]="{ 'rotate-icon': currentExpandedIndex === i }"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Conditionally show answer based on expanded state -->
+            <div *ngIf="currentExpandedIndex === i" class="extra-area">
+                <div class="row">
+                    <div class="col-11">
+                        <label style="color: white; font-size: 18px;">{{ item.answer }}</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="border-color: white;">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>

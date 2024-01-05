@@ -1,0 +1,161 @@
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+    <br>
+    <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-clock-rotate-left fs-1"
+            style="color: black;"></i>&nbsp;&nbsp;
+            ประวัติการชำระเงิน</span>
+    <br>
+    <hr>
+    <div class="col d-flex justify-content-end">
+      <button class="btn btn-success btn-sm me-4">2565</button>
+      <button class="btn btn-success btn-sm me-4">2566</button>
+      <button class="btn btn-success btn-sm me-4">2567</button>
+    </div>
+    <br>
+    <div class="d-flex justify-content-center">
+    <table border="1" style="background-color: white;">
+        <thead>
+          <tr>
+            <th>เดือน</th>
+            <th>สถานะ</th>
+            <th>หมายเหตุ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>มกราคม</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>กุมภาพันธ์</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>มีนาคม</td>
+            <td>จ่ายแล้ว</td>
+            <td>ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>เมษายน</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>พฤษภาคม</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>มิถุนายน</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>กรกฎาคม</td>
+            <td>จ่ายแล้ว</td>
+            <td class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>สิงหาคม</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>กันยายน</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>ตุลาคม</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>พฤศจิกายน</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+          <tr>
+            <td>ธันวาคม</td>
+            <td>จ่ายแล้ว</td>
+            <td (click)="open()" style="cursor: pointer;" class="td3">ดูรายละเอียด</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+</div>
+
+
+<div class="example-wrapper" style="position: absolute; z-index:1">
+  <kendo-dialog *ngIf="opened" title="ประวัติการชำระเงิน" (close)="close('close')" [width]="800" [height]="500">
+   <br><br>
+      <table border="1" style="background-color: white;" class="tablebill">
+          <tr>
+              <th style="text-align: center;" colspan="5" class="thtd">บิลค่าเช่า</th>
+              <th style="text-align: center;" class="thtd">ห้องที่ 20</th>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ผู้เช่า</td>
+              <td style="text-align: center;" colspan="3" class="thtd">นางสาวสรณีย์ หมุนแก้ว</td>
+              <td style="text-align: center;" colspan="2" class="thtd">เดือน ตุลาคม</td>
+          </tr>
+          <tr>
+              <th style="text-align: center;" class="thtd">รายการ</th>
+              <th style="text-align: center;" class="thtd">เลขครั้งก่อน</th>
+              <th style="text-align: center;" class="thtd">เลขครั้งนี้</th>
+              <th style="text-align: center;" class="thtd">จำนวนหน่วยที่ใช้</th>
+              <th style="text-align: center;" class="thtd">หน่วยละ</th>
+              <th style="text-align: center;" class="thtd">รวม</th>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าน้ำ</td>
+              <td style="text-align: center;" class="thtd">933</td>
+              <td style="text-align: center;" class="thtd">936</td>
+              <td style="text-align: center;" class="thtd">3</td>
+              <td style="text-align: right;" class="thtd">26.00</td>
+              <td style="text-align: right;" class="thtd">78.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าไฟ</td>
+              <td style="text-align: center;" class="thtd">3,174</td>
+              <td style="text-align: center;" class="thtd">3,246</td>
+              <td style="text-align: center;" class="thtd">72</td>
+              <td style="text-align: right;" class="thtd">6.50</td>
+              <td style="text-align: right;" class="thtd">468.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าส่วนกลาง</td>
+              <td colspan="4"></td>
+              <td style="text-align: right;" class="thtd">200.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าเช่า (ห้องแอร์)</td>
+              <td colspan="4"></td>
+              <td style="text-align: right;" class="thtd">2,500.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าปรับ</td>
+              <td colspan="4"></td>
+              <td style="text-align: right;" class="thtd">0.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">รวมเงิน</td>
+              <td style="text-align: center;" colspan="4" class="thtd">สามพันสองร้อยสี่สิบหกบาทถ้าน</td>
+              <td style="text-align: right;" class="thtd">3,246.00</td>
+          </tr>
+          <tr>
+              <td style="height: 30px;" colspan="6"> </td>
+          </tr>
+      </table>
+      <br><br>
+      <kendo-dialog-actions>
+        <div class="col-12 d-flex justify-content-end">
+            <button type="button" class="btn btn-success btn-sm me-4">ดาวน์โหลด</button>
+            <button type="reset" class="btn btn-secondary btn-sm"
+                (click)="close('close')">ยกเลิก</button>
+    </div>
+</kendo-dialog-actions>
+  </kendo-dialog>
+</div>

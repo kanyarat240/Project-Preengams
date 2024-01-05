@@ -1,0 +1,24 @@
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.custom-fill-mode {
+  background: #F9F9F9;
+  border-color: #e6e6e6;
+}
+
+// kendo-textbox {
+//   width: 500%; /* กำหนดความกว้างเต็มรูป */
+//   max-width: 600px; /* ปรับค่าตามที่คุณต้องการ */
+//   height: 30px; /* ปรับความสูงของ TextBox */
+//   font-size: 8px; /* ปรับขนาดตัวอักษร */
+//   padding: 8px; /* กำหนดระยะห่างภายใน TextBox */
+//   border: 1px solid #ccc; /* กำหนดสีขอบ */
+//   border-radius: 3px; /* กำหนดขอบมนขอบของ TextBox */
+// }
+
+.form-control-solid.custom-fill-mode.form-container {
+  width: 600px; /* ปรับความกว้างตามที่คุณต้องการ */
+  height: 35px;
+}

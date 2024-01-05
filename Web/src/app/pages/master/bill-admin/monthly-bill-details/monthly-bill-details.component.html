@@ -1,0 +1,290 @@
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+    <br>
+    <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-receipt-cutoff fs-1"
+        style="color: black;"></i>&nbsp;&nbsp;
+        บิลค่าเช่า</span>
+    <br>
+    <hr>
+    <div class="col-12 d-flex justify-content-end">
+            <input class="form-control form-control-solid form-select-sm w-300px h-40px mx-0 ml-auto" style="background-color: rgb(222, 222, 222);" placeholder="ค้นหา..." />
+            <!-- <input type="submit" value="ค้นหา" /> -->
+    </div>
+    <br> 
+    <div class="d-flex justify-content-center">
+    <table border="1" style="background-color: white;">
+        <thead>
+          <tr>
+            <th>ห้อง</th>
+            <th>ชื่อ</th>
+            <th>นามสกุล</th>
+            <th>วันที่ออกบิล</th>
+            <th>ค่าเช่ารวม</th>
+            <th>สถานะ</th>
+            <th>หมายเหตุ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>กัลยรัตน์</td>
+            <td>วงษ์สุวรรณ</td>
+            <td>27/01/2566</td>
+            <td>3420</td>
+            <td>จ่ายแล้ว</td>
+            <td> </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <br><br>
+    <div class="col-12 d-flex justify-content-end">
+        <button (click)="togglenewbill()" type="button" class="btn btn-success btn-sm me-4">เพิ่มบิล</button>
+        <button (click)="toggleeditbill()" type="button" class="btn btn-success btn-sm">แก้ไข</button>
+    </div>
+</div>
+
+<!-- POPUPNEWBILL -->
+<div class="example-wrapper" style="position: absolute; z-index:1">
+  <kendo-dialog *ngIf="newbill" title="เพิ่มบิล" (close)="close('close')" [width]="800" [height]="500">
+   <br><br>
+      <table border="1" style="background-color: white;" class="tablebill">
+          <tr>
+              <th style="text-align: center;" colspan="5" class="thtd">บิลค่าเช่า</th>
+              <th style="text-align: center;" class="thtd">ห้องที่ </th>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ผู้เช่า</td>
+              <td style="text-align: center;" colspan="3" class="thtd"> </td>
+              <td style="text-align: center;" colspan="2" class="thtd"> </td>
+          </tr>
+          <tr>
+              <th style="text-align: center;" class="thtd">รายการ</th>
+              <th style="text-align: center;" class="thtd">เลขครั้งก่อน</th>
+              <th style="text-align: center;" class="thtd">เลขครั้งนี้</th>
+              <th style="text-align: center;" class="thtd">จำนวนหน่วยที่ใช้</th>
+              <th style="text-align: center;" class="thtd">หน่วยละ</th>
+              <th style="text-align: center;" class="thtd">รวม</th>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าน้ำ</td>
+              <td style="text-align: center;" class="thtd"> </td>
+              <td style="text-align: center;" class="thtd"> </td>
+              <td style="text-align: center;" class="thtd"></td>
+              <td style="text-align: right;" class="thtd">26.00</td>
+              <td style="text-align: right;" class="thtd"> </td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าไฟ</td>
+              <td style="text-align: center;" class="thtd"></td>
+              <td style="text-align: center;" class="thtd"></td>
+              <td style="text-align: center;" class="thtd"></td>
+              <td style="text-align: right;" class="thtd">6.50</td>
+              <td style="text-align: right;" class="thtd"></td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าส่วนกลาง</td>
+              <td colspan="4"></td>
+              <td style="text-align: right;" class="thtd">200.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าเช่า (ห้องแอร์)</td>
+              <td colspan="4"></td>
+              <td style="text-align: right;" class="thtd">2,500.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">ค่าปรับ</td>
+              <td colspan="4"></td>
+              <td style="text-align: right;" class="thtd">0.00</td>
+          </tr>
+          <tr>
+              <td style="text-align: center;" class="thtd">รวมเงิน</td>
+              <td style="text-align: center;" colspan="4" class="thtd"> </td>
+              <td style="text-align: right;" class="thtd"> </td>
+          </tr>
+          <tr>
+              <td style="height: 30px;" colspan="6"> </td>
+          </tr>
+      </table>
+      <br><br>
+      <kendo-dialog-actions>
+        <div class="col-12 d-flex justify-content-end">
+            <button type="button" class="btn btn-success btn-sm me-4">ออกบิล</button>
+            <button type="reset" class="btn btn-secondary btn-sm"
+                (click)="close('close')">ยกเลิก</button>
+    </div>
+</kendo-dialog-actions>
+  </kendo-dialog>
+</div>
+
+
+<!-- POPUPEDETBILL -->
+<div class="example-wrapper" style="position: absolute; z-index:1">
+    <kendo-dialog *ngIf="editbill" title="แก้ไขบิล" (close)="close('close')" [width]="800" [height]="500">
+     <br><br>
+        <table border="1" style="background-color: white;" class="tablebill">
+            <tr>
+                <th style="text-align: center;" colspan="5" class="thtd">บิลค่าเช่า</th>
+                <th style="text-align: center;" class="thtd">ห้องที่ 20</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">ผู้เช่า</td>
+                <td style="text-align: center;" colspan="3" class="thtd">นางสาวสรณีย์ หมุนแก้ว</td>
+                <td style="text-align: center;" colspan="2" class="thtd">เดือน ตุลาคม</td>
+            </tr>
+            <tr>
+                <th style="text-align: center;" class="thtd">รายการ</th>
+                <th style="text-align: center;" class="thtd">เลขครั้งก่อน</th>
+                <th style="text-align: center;" class="thtd">เลขครั้งนี้</th>
+                <th style="text-align: center;" class="thtd">จำนวนหน่วยที่ใช้</th>
+                <th style="text-align: center;" class="thtd">หน่วยละ</th>
+                <th style="text-align: center;" class="thtd">รวม</th>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">ค่าน้ำ</td>
+                <td style="text-align: center;" class="thtd">933</td>
+                <td style="text-align: center;" class="thtd">936</td>
+                <td style="text-align: center;" class="thtd">3</td>
+                <td style="text-align: right;" class="thtd">26.00</td>
+                <td style="text-align: right;" class="thtd">78.00</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">ค่าไฟ</td>
+                <td style="text-align: center;" class="thtd">3,174</td>
+                <td style="text-align: center;" class="thtd">3,246</td>
+                <td style="text-align: center;" class="thtd">72</td>
+                <td style="text-align: right;" class="thtd">6.50</td>
+                <td style="text-align: right;" class="thtd">468.00</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">ค่าส่วนกลาง</td>
+                <td colspan="4"></td>
+                <td style="text-align: right;" class="thtd">200.00</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">ค่าเช่า (ห้องแอร์)</td>
+                <td colspan="4"></td>
+                <td style="text-align: right;" class="thtd">2,500.00</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">ค่าปรับ</td>
+                <td colspan="4"></td>
+                <td style="text-align: right;" class="thtd">0.00</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;" class="thtd">รวมเงิน</td>
+                <td style="text-align: center;" colspan="4" class="thtd">สามพันสองร้อยสี่สิบหกบาทถ้าน</td>
+                <td style="text-align: right;" class="thtd">3,246.00</td>
+            </tr>
+            <tr>
+                <td style="height: 30px;" colspan="6"> </td>
+            </tr>
+        </table>
+        <br><br>
+        <kendo-dialog-actions>
+          <div class="col-12 d-flex justify-content-end">
+              <button type="button" class="btn btn-success btn-sm me-4">บันทึก</button>
+              <button type="reset" class="btn btn-secondary btn-sm"
+                  (click)="close('close')">ยกเลิก</button>
+      </div>
+  </kendo-dialog-actions>
+    </kendo-dialog>
+  </div>

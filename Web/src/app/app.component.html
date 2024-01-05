@@ -1,0 +1,16 @@
+<ngx-spinner 
+bdColor = "rgba(0, 0, 0, 0.8)" 
+size = "medium" color = "#fff" 
+type = "square-jelly-box" 
+[fullScreen] = "true">
+
+<div class="item">
+    <div class="loader11"></div>
+</div>
+<p>Loading...</p>
+
+</ngx-spinner>
+
+<router-outlet>
+    <span class="loader" *ngIf="loading"></span>"
+</router-outlet>

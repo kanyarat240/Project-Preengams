@@ -1,0 +1,136 @@
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+    <br>
+    <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-receipt-cutoff fs-1"
+            style="color: black;"></i>&nbsp;&nbsp;
+        บิลค่าเช่า</span>
+    <br>
+    <hr>
+    <table border="1" style="background-color: white;">
+        <tr>
+            <th style="text-align: center;" colspan="5">บิลค่าเช่า</th>
+            <th style="text-align: center;">ห้องที่ 20</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">ผู้เช่า</td>
+            <td style="text-align: center;" colspan="3">นางสาวสรณีย์ หมุนแก้ว</td>
+            <td style="text-align: center;" colspan="2">เดือน ตุลาคม</td>
+        </tr>
+        <tr>
+            <th style="text-align: center;">รายการ</th>
+            <th style="text-align: center;">เลขครั้งก่อน</th>
+            <th style="text-align: center;">เลขครั้งนี้</th>
+            <th style="text-align: center;">จำนวนหน่วยที่ใช้</th>
+            <th style="text-align: center;">หน่วยละ</th>
+            <th style="text-align: center;">รวม</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">ค่าน้ำ</td>
+            <td style="text-align: center;">933</td>
+            <td style="text-align: center;">936</td>
+            <td style="text-align: center;">3</td>
+            <td style="text-align: right;">26.00</td>
+            <td style="text-align: right;">78.00</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">ค่าไฟ</td>
+            <td style="text-align: center;">3,174</td>
+            <td style="text-align: center;">3,246</td>
+            <td style="text-align: center;">72</td>
+            <td style="text-align: right;">6.50</td>
+            <td style="text-align: right;">468.00</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">ค่าส่วนกลาง</td>
+            <td colspan="4"></td>
+            <td style="text-align: right;">200.00</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">ค่าเช่า (ห้องแอร์)</td>
+            <td colspan="4"></td>
+            <td style="text-align: right;">2,500.00</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">ค่าปรับ</td>
+            <td colspan="4"></td>
+            <td style="text-align: right;">0.00</td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">รวมเงิน</td>
+            <td style="text-align: center;" colspan="4">สามพันสองร้อยสี่สิบหกบาทถ้าน</td>
+            <td style="text-align: right;">3,246.00</td>
+        </tr>
+        <tr>
+            <td style="height: 30px;" colspan="6"> </td>
+        </tr>
+    </table>
+    <br>
+    <span style="font-size: 16px; color: red; font-weight: bold;">*กรุณาชำระค่าห้องไม่เกินวันที่ 5 ของเดือน</span>
+    <br><br><br>
+    <div class="col-12 d-flex justify-content-end">
+        <button (click)="open()" type="button" class="btn btn-success btn-sm">ชำระเงิน</button>
+    </div>
+</div>
+
+
+<div class="example-wrapper" style="position: absolute; z-index:1">
+    <kendo-dialog *ngIf="opened" title="ชำระเงิน" (close)="close('close')" [width]="800" [height]="550">
+        <div class="row">
+            <div class="col d-flex justify-content-center"><img src="\assets\Image\QRPP.jpg" alt="QRPP"
+                    style="width: 180px; height: 200px;"></div>
+            <div class="col">
+                <br><br><br>
+                <div class="row"
+                    style="justify-content: center; font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">
+                    ธนาคารไทยพาณิชย์</div>
+                <br><br>
+                <div class="row"
+                    style="justify-content: center; font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">
+                    เลขที่บัญชี : 438-132XXX-X</div>
+                <div class="row"
+                    style="justify-content: center; font-size: 16px; color: rgb(0, 0, 0); font-weight: bold;">ชื่อบัญชี
+                    : นายล้วน ปรีงาม</div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                style="width: 200px; font-weight: bold;">จำนวนเงิน (บาท)</label>
+            <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอกจำนวนเงินที่โอน" [maxlength]="6">
+            </kendo-textbox>
+            <br>
+                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                style="width: 200px; font-weight: bold;">อัพโหลดรูปสลิป</label>
+                <input style="height: 50.92px; width: 768px;" type="file" class="form-control form-container" name="file">
+            <br>
+            <div class="row">
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                    style="width: 200px; font-weight: bold;">วันที่โอนเงิน</label>
+                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอกวันที่โอนเงิน" [maxlength]="10">
+                </kendo-textbox>
+                </div>
+                <div class="col-6">
+                    <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                    style="width: 200px; font-weight: bold;">เวลาที่โอนเงิน</label>
+                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอกเวลาที่โอนเงิน" [maxlength]="10">
+                </kendo-textbox>
+                </div>
+            </div>
+            <br>
+            <label for="exampleFormControlInput1"
+                style="width: 200px; font-weight: bold;">หมายเหตุ</label>
+            <kendo-textbox class=" form-control form-container" placeholder="หมายเหตุ" [maxlength]="200">
+            </kendo-textbox>
+        </div>
+
+
+    
+
+        <kendo-dialog-actions>
+                <div class="col-12 d-flex justify-content-end">
+                    <button type="button" class="btn btn-success btn-sm me-4">ชำระเงิน</button>
+                    <button type="reset" class="btn btn-secondary btn-sm"
+                        (click)="close('close')">ยกเลิก</button>
+            </div>
+        </kendo-dialog-actions>
+    </kendo-dialog>
+</div>

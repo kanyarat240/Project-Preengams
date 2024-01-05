@@ -1,0 +1,112 @@
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+  <div class="row">
+    <div class="col-6">
+      <br>
+      <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-person-circle fs-1"
+          style="color: black;"></i>&nbsp;&nbsp;
+        ข้อมูลส่วนตัว</span>
+    </div>
+
+    <div class="col-6">
+      <div class="card-header cursor-pointer">
+        <div class="card-title m-0">
+          <!-- <h3 class="fw-bolder m-0">ข้อมูลส่วนตัว</h3> -->
+        </div>
+
+        <a [routerLink]="['/master/setting']" class="btn btn-primary align-self-center">
+          แก้ไขข้อมูลส่วนตัว
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div *ngIf="user$ | async as _user" class="card-body p-9">
+
+    <div class="row mb-7">
+      <div class="col-lg-3">
+        <span class="col-lg-3 fw-bold text-muted">ชื่อผู้ใช้งาน</span>
+      </div>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark"> {{ _user.username }} </span>
+      </div>
+
+      <label class="col-lg-3 fw-bold text-muted" style="width: 199.5px;">หมายเลขห้อง</label>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark"> {{ _user.roomId}}</span>
+      </div>
+    </div>
+
+    <div class="row mb-7">
+      <div class="col-lg-3">
+        <span class="col-lg-3 fw-bold text-muted">เลขบัตรประชาชน</span>
+      </div>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark"> {{ _user.idCard }} </span>
+      </div>
+
+      <label class="col-lg-3 fw-bold text-muted" style="width: 199.5px;">ชื่อ-นามสกุล</label>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark"> {{ _user.firstname + " " + _user.lastname }}</span>
+      </div>
+    </div>
+
+    <div class="row mb-7">
+      <div class="col-lg-3 d-flex align-items-center">
+        <span class="col-lg-2 fw-bold text-muted" style="width: 100px;">เบอร์โทรศัพท์</span>
+        <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Phone number must be active"></i>
+      </div>
+
+      <div class="col-lg-3 d-flex align-items-center">
+        <span class="fw-bolder fs-6 me-2"> {{ _user.phone }} </span>
+      </div>
+
+      <label class="col-lg-3 fw-bold text-muted" style="width: 199.5px;">ที่อยู่</label>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark" style="padding-right: 20px;width: 329.75px;">
+          {{ _user.addressDescription }}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+  <div class="row">
+    <div class="col-6">
+      <br>
+      <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-shield-lock fs-1"
+          style="color: black;"></i>&nbsp;&nbsp;
+        รหัสผ่าน</span>
+    </div>
+
+    <div class="col-6">
+      <div class="card-header cursor-pointer">
+        <div class="card-title m-0">
+        </div>
+
+        <a routerLink="/master/password-setting" class="btn btn-primary align-self-center">
+          เปลี่ยนรหัสผ่าน
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div *ngIf="user$ | async as _user" class="card-body p-9">
+
+    <div class="row mb-7">
+      <div class="col-lg-3">
+        <span class="col-lg-3 fw-bold text-muted">Username</span>
+      </div>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark"> {{ _user.username }} </span>
+      </div>
+
+      <label class="col-lg-3 fw-bold text-muted" style="width: 199.5px;">Passwoed</label>
+      <div class="col-lg-3">
+        <span class="fw-bolder fs-6 text-dark"> {{ _user.password }}</span>
+      </div>
+    </div>
+  </div> -->
+</div>

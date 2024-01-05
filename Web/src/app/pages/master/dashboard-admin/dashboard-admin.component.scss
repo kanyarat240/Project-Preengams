@@ -1,0 +1,32 @@
+:host {
+    width: 100%;
+    height: 100%;
+    @media (min-width: 992px) {
+      .login-form {
+        width: 100%;
+        max-width: 450px;
+  
+        .mat-form-field {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+//   .background-image {
+//     /* ปรับขนาดตามต้องการ */
+//     width: 100%;
+
+//     object-fit: cover; /* ปรับขนาดเพื่อไม่ให้ภาพตัดหรือเกินพื้นที่ */
+//     /* ตัวเลือกอื่น ๆ ของ background */
+//     position: absolute; /* ให้ภาพอยู่ในตำแหน่งต่อเนื่องกับพื้นหลัง */
+//     top: 0;
+//     left: 0;
+//     z-index: -1; /* ให้ภาพอยู่ด้านหลังของเนื้อหา */
+//   }
+
+.head-font{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}

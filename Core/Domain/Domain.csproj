@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entitles\" />
+    <None Remove="DTOs\" />
+    <None Remove="Configs\" />
+    <None Remove="Entitles\SU\" />
+    <None Remove="Entities\DB\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Line.Messaging\Line.Messaging.csproj" />
+  </ItemGroup>
+</Project>

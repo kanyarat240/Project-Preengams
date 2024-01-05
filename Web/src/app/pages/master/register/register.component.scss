@@ -1,0 +1,29 @@
+.head-font{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-container {
+    background-color: #F4F4F4; /* สีเทาอ่อน */
+    border-radius: 5px; /* กำหนดรูปร่างของฟอร์ม */
+  }
+
+  kendo-textbox,
+kendo-dropdownlist,
+kendo-multiselecttree {
+  width: 370px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.style-font{
+    font-weight: bold;
+}

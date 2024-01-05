@@ -1,0 +1,157 @@
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+    <br>
+    <div class="">
+        &nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-credit-card-2-front fs-1" style="color: black;"></i>&nbsp;&nbsp;
+        <span class="head-font">ลงทะเบียน</span>
+    </div>
+    <br>
+    <hr>
+    <br><br>
+    
+    <ng-container *ngIf="newRegis as _regis">
+    <form class="form">
+        <div class="row">
+            <div class="container">
+                <div class="col-8 mb-7">
+                    <br>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 119.5px; font-weight: bold;">หมายเลขห้อง :</label>
+
+                                    <kendo-textbox class=" form-control form-container" placeholder="กรุณรากรอกหมายเลขห้อง"
+                                    [(ngModel)]="_regis.roomId" [ngModelOptions]="{standalone: true}"
+                                    [maxlength]="80" required
+                                    >
+                                </kendo-textbox>
+                                <!-- <kendo-dropdownlist
+                                    class=" form-control-solid custom-fill-mode form-container-dropdown "
+                                    [data]="dropdownDTO"
+                                    [(ngModel)]="_regis.roomId" textField="Id" valueField="roomId" required
+                                    [valuePrimitive]="true" [ngModelOptions]="{standalone: true}">
+                                </kendo-dropdownlist> -->
+                   
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 150px; font-weight: bold;">เลขบัตรประชาชน :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="กรุณรากรอกหมายเลขบัตรประชาชน"
+                                    [(ngModel)]="_regis.idCard" [ngModelOptions]="{standalone: true}"
+                                    [maxlength]="80" required
+                                    >
+                                </kendo-textbox>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 119.5px; font-weight: bold;">ชื่อ :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอกชื่อจริง"
+                                [(ngModel)]="_regis.firstName" [ngModelOptions]="{standalone: true}"
+                                [maxlength]="80" >
+                                </kendo-textbox>
+                      
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 119.5px; font-weight: bold;">นามสกุล :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอกนามสกุล"
+                                [(ngModel)]="_regis.lastName" [ngModelOptions]="{standalone: true}"
+                                [maxlength]="80">
+                                </kendo-textbox>
+                        
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 119.5px; border: 1px;">Username :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอก Username"
+                                [(ngModel)]="_regis.username" [ngModelOptions]="{standalone: true}"
+                                [maxlength]="80">
+                                </kendo-textbox>
+                
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 119.5px; font-weight: bold;">เบอร์โทรศัพท์ :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอกเบอร์โทรศัพท์"
+                                [(ngModel)]="_regis.phone" [ngModelOptions]="{standalone: true}"
+                                [maxlength]="80">
+                                </kendo-textbox>
+                          
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 119.5px;">Password :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="กรุณากรอก Password"
+                                [(ngModel)]="_regis.password" 
+                                [maxlength]="80" [ngModelOptions]="{standalone: true}">
+                                </kendo-textbox>
+                    
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1" class="col-lg-3 required form-label"
+                                    style="width: 150px;">Confirm Password :</label>
+                                <kendo-textbox class=" form-control form-container" placeholder="Confirm Password"
+                                [(ngModel)]="_regis.confirmPassword" 
+                                [maxlength]="80" [ngModelOptions]="{standalone: true}">
+                                </kendo-textbox>
+                                <br>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group row">
+                                <label class="form-label text-right col-lg-3 style-font">ที่อยู่</label>
+                                <textarea class="form-control form-container" name="teamsDetails"
+                                    placeholder="กรุณากรอกที่อยู่" rows="3" [(ngModel)]="_regis.address" maxlength="200"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</ng-container>
+    <hr>
+        <div class="row">
+          <div class="col-12 d-grid gap-2 d-md-flex btn-block d-flex justify-content-end">
+            <button type="button" class="btn btn-success  kendoButton me-4" style="width: 90px;" (click)="register()">บันทึก</button>
+          </div>
+        </div>
+     
+
+</div>

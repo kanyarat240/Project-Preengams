@@ -1,0 +1,182 @@
+<div class="background-container">
+  <img src="./assets/Image/background.png" alt="Background Image" class="background-image">
+<br>
+<div class="container-xxl d-flex align-items-center" style="background-color:  #001534;">
+  <div class="d-flex topbar align-items-center d-lg-none ms-n2 me-3" title="Show aside menu">
+    <div class="btn btn-icon btn-active-light-primary btn-custom w-30px h-30px w-md-40px h-md-40px"
+      id="kt_header_menu_mobile_toggle">
+      <span [inlineSVG]="'./assets/media/icons/duotune/abstract/abs015.svg'" class="svg-icon svg-icon-1"></span>
+    </div>
+
+  </div>
+
+  <div class="header-logo me-5 me-md-10 flex-grow-1 flex-lg-grow-0">
+    <a routerLink="/dashboard">
+      <img alt="Logo" src="./assets/media/logos/Preengem1.png" class="logo-default h-50px">
+    </a>
+  </div>
+
+  <div class="d-flex align-items-stretch justify-content-end flex-lg-grow-1">
+
+    <!-- หน้าแรก -->
+    <div class="menu-item me-lg-1">
+      <a class="menu-link py-3" routerLinkActive="active" routerLink="/dashboard"><span
+          class="menu-title">หน้าแรก</span></a>
+    </div>
+
+    <!-- หอพัก -->
+    <div class="menu-item me-lg-1">
+      <a class="menu-link py-3" routerLinkActive="active" routerLink="/builder"><span
+          class="menu-title">หอพัก</span></a>
+    </div>
+
+    <!-- คำถามที่พบบ่อย -->
+    <div class="menu-item me-lg-1">
+      <a class="menu-link py-3" routerLinkActive="active" routerLink="/auth/question-home"><span
+          class="menu-title">คำถามที่พบบ่อย</span></a>
+    </div>
+
+    <!-- ติดต่อ -->
+    <div class="menu-item me-lg-1">
+      <a class="menu-link py-3" routerLinkActive="active" routerLink="/contact"><span
+          class="menu-title">ติดต่อ</span></a>
+    </div>
+
+    <div class="menu-item me-lg-1" style="padding-top: 11px;">
+      <span class="menu-title" style="color: rgb(221, 215, 215); box-shadow: 0 2px 4px  #001534;">|</span>
+    </div>
+
+    <div class="menu-item me-lg-1">
+      <a class="menu-link py-3" routerLinkActive="active" routerLink="/auth/login"><span
+          class="menu-title">เข้าสู่ระบบ</span></a>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<hr style="color: beige;">
+<div class="stepper stepper-pills stepper-column d-flex flex-column flex-xl-row flex-row-fluid "
+  id="kt_create_account_stepper" style="padding: 40px;  height: 600px;  transition: none; background-color:  #001534;">
+  <div class="d-flex flex-center flex-column flex-column-fluid p-10 pb-lg-20">
+    <div class="">
+      <form class="form w-300" [formGroup]="loginForm" novalidate="novalidate" id="kt_login_signin_form" 
+      style="padding-bottom: 130px; "
+        (ngSubmit)="submit()">
+        <br><br>
+        <div class="text-center">
+          <h2 class="texe-white text-font">เข้าสู่ระบบ</h2>
+          <br>
+          <!-- <div class="text-gray-400 fw-bold fs-7 mb-2">
+          {{"AUTH.LOGIN.NEWHERE" | translate}}
+          <a routerLink="/auth/registration" id="kt_login_signup" class="link-primary fw-bolder">{{
+            "AUTH.GENERAL.SIGNUP_BUTTON" | translate }}</a>
+        </div> -->
+        </div>
+
+        <ng-container *ngIf="hasError">
+          <div class="mb-lg-15 alert alert-danger">
+            <div class="alert-text font-weight-bold">
+              The login details are incorrect
+            </div>
+          </div>
+        </ng-container>
+        <br>
+
+        <div class="fv-row mb-8">
+          <label class="form-label fs-7 fw-bolder texe-white">Username</label>
+          <input class="form-control form-control-lg form-control-solid fs-7" type="email" name="email"
+            formControlName="email" autocomplete="off" [ngClass]="{
+              'is-valid': loginForm.controls['email'].valid
+            }" style="width: 390.333334px;height: 40px;" />
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'required',
+              message: 'Username is required',
+              control: loginForm.controls['email']
+            }"></ng-container>
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'username',
+              message: 'Username is required',
+              control: loginForm.controls['email']
+            }"></ng-container>
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'minLength',
+              message: 'Email should have at least 3 symbols',
+              control: loginForm.controls['email']
+            }"></ng-container>
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'maxLength',
+              message: 'Email should have maximum 360 symbols',
+              control: loginForm.controls['email']
+            }"></ng-container>
+        </div>
+        <!--end::Form group-->
+
+        <!--begin::Form group-->
+        <div class="fv-row mb-8">
+          <div class="d-flex justify-content-between mt-n5">
+            <div class="d-flex flex-stack mb-2">
+              <label class="form-label fw-bolder texe-white fs-7 mb-0">Password</label>
+
+            </div>
+          </div>
+
+          <input class="form-control form-control-lg form-control-solid fs-7" type="password" name="password"
+            autocomplete="off" formControlName="password" [ngClass]="{
+              'is-valid': loginForm.controls['password'].valid
+            }" />
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'required',
+              message: 'Password is required',
+              control: loginForm.controls['password']
+            }"></ng-container>
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'minlength',
+              message: 'Password should have at least 3 symbols',
+              control: loginForm.controls['password']
+            }"></ng-container>
+          <ng-container [ngTemplateOutlet]="formError" [ngTemplateOutletContext]="{
+              validation: 'maxLength',
+              message: 'Password should have maximum 100 symbols',
+              control: loginForm.controls['password']
+            }"></ng-container>
+        </div>
+        <!--end::Form group-->
+
+        <!--begin::Action-->
+        <div class="text-center" style="width: 200px; margin: 0 auto;">
+          <button type="submit" id="kt_sign_in_submit" class="btn btn-lg btn-primary w-100 mb-5"
+            [disabled]="loginForm.invalid">
+            <ng-container *ngIf="isLoading$ | async">
+              <span class="indicator-progress" [style.display]="'block'">
+                Please wait...
+                <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+              </span>
+            </ng-container>
+            <ng-container *ngIf="(isLoading$ | async) === false">
+              <span class="indicator-label">เข้าสู่ระบบ</span>
+            </ng-container>
+          </button>
+        </div>
+        <!--end::Action-->
+      </form>
+      <!--end::Form-->
+    </div>
+    <!--end::Content body-->
+  </div>
+  <!--end::Content-->
+
+
+  <ng-template #formError let-control="control" let-message="message" let-validation="validation">
+    <ng-container *ngIf="control.hasError(validation) && (control.dirty || control.touched)">
+      <div class="fv-plugins-message-container">
+        <span role="alert" style="font-size: 10px;">
+          {{ message }}
+        </span>
+      </div>
+    </ng-container>
+  </ng-template>
+</div>
+</div>

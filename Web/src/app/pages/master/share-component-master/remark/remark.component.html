@@ -1,0 +1,38 @@
+<!-- <div class="align-self-center">
+        <button (click)="toggleRejectPopup()" type="button" class="btn  explore-btn-danger" data-bs-toggle="modal"
+          data-bs-target="#kt_modal_create_project" >
+          Inactive
+        </button>
+</div> -->
+
+<div class="example-wrapper" style="position: absolute; z-index:1">
+    <kendo-dialog title="Remark Details" (close)="close()" [minWidth]="300" [width]="800"
+      [height]="250">
+      <div class="form-group row">
+        <label class="col-lg-3 d-flex justify-content-center">Comment </label>
+        <div class="col-lg-8">
+          <textarea class="form-control" placeholder="Enter a details" rows="3" [(ngModel)]="remark"  [maxlength]="100" style="resize: none;"></textarea>
+          <span style="font-size: 10px; color:rgb(255, 64, 64) ;">*Limit: 100 characters</span>
+          <br><br>
+        </div>
+      </div>
+
+      <kendo-dialog-actions>
+        <div class="row ">
+            <div class="col-lg-12 d-md-flex justify-content-md-end btn-block">
+              <button kendoButton class="btn btn-secondary kendoButton me-4" style="width: 90px; height: 40px;" (click)="close()">Cancel</button>
+              <button type="button" style="width: 90px; height: 40px;" class="btn btn-success kendoButton " [disabled]="isLoading || saveDisable"
+              (click)="SaveClick(remark)"> 
+                <ng-container *ngIf="!isLoading" class="indicator-progress" [style.display]="'block'">Save</ng-container>
+                <ng-container *ngIf="isLoading">
+                  <span class="indicator-progress" [style.display]="'block'">
+                    <!-- {{ "ALERT.BUTTON.WAIT" | translate }} -->
+                    <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+                  </span>
+                </ng-container>
+              </button>
+            </div>
+          </div>
+      </kendo-dialog-actions>
+    </kendo-dialog>
+</div>

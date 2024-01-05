@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.splash-screen {
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Helvetica, 'sans-serif';
+  background-color: #f2f3f8;
+  color: #5E6278;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* .splash-screen span {
+  color: #5E6278;
+  transition: none !important;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+.splash-screen img {
+  margin-left: calc(100vw - 100%);
+  margin-bottom: 30px;
+  height: 30px !important;
+} */
+
+.splash-screen img {
+  margin-left: calc(100vw - 100%);
+  margin-bottom: 30px;
+  height: 70px !important;
+}
+ 
+.splash-screen span {
+  bottom: 0; /* วางข้อความที่ด้านล่าง */
+  left: 0; /* จัดตำแหน่งให้ข้อความอยู่ทางซ้าย */
+  width: 100%; /* ทำให้ข้อความมีความกว้างเท่ากับคอนเทนเนอร์ของ div */
+  text-align: center; /* จัดให้ข้อความอยู่กึ่งกลางของ div */
+}
+
+
+
+
+[data-bs-theme="dark"] .splash-screen {
+  background-color: #151521;
+  color: #92929F;
+}
+
+[data-bs-theme="dark"] .splash-screen span {
+  color: #92929F;
+}
+
+
+#root {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}

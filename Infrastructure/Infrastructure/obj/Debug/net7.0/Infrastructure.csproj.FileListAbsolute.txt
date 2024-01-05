@@ -1,0 +1,57 @@
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Application.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Application.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Domain.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\bin\Debug\net7.0\Line.Messaging.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Application.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Domain.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Application.pdb
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Domain.pdb
+D:\Project_Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\Project_Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Application.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Domain.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Application.pdb
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Domain.pdb
+D:\Project-Preengam\Infrastructure\Infrastructure\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CopyComplete
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+D:\Project-Preengam\Infrastructure\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll

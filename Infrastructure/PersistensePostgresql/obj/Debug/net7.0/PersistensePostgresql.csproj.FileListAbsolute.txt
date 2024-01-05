@@ -1,0 +1,57 @@
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.deps.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Application.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Domain.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Application.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Line.Messaging.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.AssemblyReference.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.AssemblyInfoInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.AssemblyInfo.cs
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.CoreCompileInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.CopyComplete
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\refint\PersistensePostgresql.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\ref\PersistensePostgresql.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.AssemblyReference.cache
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.AssemblyInfoInputs.cache
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.AssemblyInfo.cs
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.CoreCompileInputs.cache
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\refint\PersistensePostgresql.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.pdb
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.deps.json
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.pdb
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Application.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Domain.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Domain.pdb
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Application.pdb
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.CopyComplete
+D:\Project_Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\ref\PersistensePostgresql.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.deps.json
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\PersistensePostgresql.pdb
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Application.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Domain.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Domain.pdb
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Application.pdb
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.AssemblyReference.cache
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.AssemblyInfoInputs.cache
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.AssemblyInfo.cs
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.CoreCompileInputs.cache
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.csproj.CopyComplete
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\refint\PersistensePostgresql.dll
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\PersistensePostgresql.pdb
+D:\Project-Preengam\Infrastructure\PersistensePostgresql\obj\Debug\net7.0\ref\PersistensePostgresql.dll

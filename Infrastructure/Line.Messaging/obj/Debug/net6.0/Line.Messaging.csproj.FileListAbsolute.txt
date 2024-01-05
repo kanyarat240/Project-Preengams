@@ -1,0 +1,36 @@
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.deps.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.csproj.AssemblyReference.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.AssemblyInfoInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.AssemblyInfo.cs
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.csproj.CoreCompileInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\refint\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Infrastructure\Line.Messaging\obj\Debug\net6.0\ref\Line.Messaging.dll
+D:\Project_Preengam\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.deps.json
+D:\Project_Preengam\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.dll
+D:\Project_Preengam\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.pdb
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.csproj.AssemblyReference.cache
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.AssemblyInfoInputs.cache
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.AssemblyInfo.cs
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.csproj.CoreCompileInputs.cache
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.dll
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\refint\Line.Messaging.dll
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.pdb
+D:\Project_Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\ref\Line.Messaging.dll
+D:\Project-Preengam\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.deps.json
+D:\Project-Preengam\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.dll
+D:\Project-Preengam\Infrastructure\Line.Messaging\bin\Debug\net6.0\Line.Messaging.pdb
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.csproj.AssemblyReference.cache
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.AssemblyInfoInputs.cache
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.AssemblyInfo.cs
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.csproj.CoreCompileInputs.cache
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.dll
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\refint\Line.Messaging.dll
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\Line.Messaging.pdb
+D:\Project-Preengam\Infrastructure\Line.Messaging\obj\Debug\net6.0\ref\Line.Messaging.dll

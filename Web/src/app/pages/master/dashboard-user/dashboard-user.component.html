@@ -1,0 +1,37 @@
+<div class="card bg-white p-3 mb-4 shadow team-card" style="padding-top: 0%;">
+    <br>
+    <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-speedometer2 fs-1"
+            style="color: black;"></i>&nbsp;&nbsp;
+            แดชบอร์ด</span>
+    <br>
+    <hr>
+    <kendo-chart>
+        <kendo-chart-title text=""></kendo-chart-title>
+        <kendo-chart-category-axis>
+            <kendo-chart-category-axis-item
+                [categories]="['ธ.ค.', 'พ.ย.', 'ต.ค.', 'ก.ย.', 'ส.ค.', 'ก.ค.', 'มิ.ย.', 'พ.ค.', 'เม.ย.', 'มี.ค.', 'ก.พ.', 'ม.ค.']"
+                [title]="{ text: 'เดือน' }"
+            >
+            </kendo-chart-category-axis-item>
+        </kendo-chart-category-axis>
+        <kendo-chart-series>
+            <!-- กราฟแท่งตัวที่ 1 -->
+            <kendo-chart-series-item
+                type="bar"
+                [data]="chartEle"
+                name="ค่าไฟ"
+            >
+            </kendo-chart-series-item>
+            <!-- กราฟแท่งตัวที่ 2 -->
+            <kendo-chart-series-item
+                type="bar"
+                [data]="chartData"
+                name="ค่าน้ำ"
+            >
+            </kendo-chart-series-item>
+            
+        </kendo-chart-series>
+    </kendo-chart>
+    
+</div>
+

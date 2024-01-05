@@ -1,0 +1,122 @@
+<div class="card mb-5 mb-xl-10">
+  <div class="row">
+    <div class="col-6">
+      <br>
+      <span class="head-font">&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-person-circle fs-1"
+          style="color: black;"></i>&nbsp;&nbsp;
+        ข้อมูลส่วนตัว</span>
+    </div>
+
+    <div class="col-6">
+      <div class="card-header cursor-pointer">
+        <div class="card-footer d-flex justify-content-end py-6 px-9" style="width: 446.5px;">
+          <button type="button" class="btn btn-primary" [disabled]="isLoading || saveDisable" (click)="saveSettings()">
+
+            <ng-container *ngIf="!isLoading">บันทึก</ng-container>
+            <ng-container *ngIf="isLoading">
+              <span class="indicator-progress" [style.display]="'block'">
+                {{"ALERT.BUTTON.WAIT" | translate}}
+                <span class="spinner-border spinner-border-sm align-middle ms-2"></span>
+              </span>
+            </ng-container>
+          </button>
+
+
+        </div>
+        <a href="/#/master/profile" class="btn btn-secondary align-self-center">
+          ยกเลิก
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div id="kt_account_profile_details" class="collapse show">
+    <form novalidate="" class="form" *ngIf="cloneUser  as _user">
+      <div class="card-body border-top p-9">
+        <div class="row mb-6">
+          <label class="col-lg-4 col-form-label fw-bold fs-6"><span class="required">หมายเลขห้อง</span></label>
+          <div class="col-lg-8 fv-row" style="padding-top: 9px; ">
+            <span class="fw-bolder fs-6 fw-bold text-muted"> {{ _user.roomId }} </span>
+          </div>
+        </div>
+
+        <div class="row mb-6">
+          <label class="col-lg-4 col-form-label fw-bold fs-6"><span class="required">เลขบัตรประชาชน</span></label>
+          <div class="col-lg-8 fv-row">
+            <kendo-textbox #idCard="ngModel" class="form-control form-control-lg form-control-solid mb-3
+                    mb-lg-0" placeholder='กรุณากรอกเลขบัตรประชาชน' pattern="{{ LETTERS_AND_SPACES_PATTERN_TH.source }}"
+              [maxlength]="80" [(ngModel)]="_user.idCard" (valueChange)="checkButton()"
+              [ngModelOptions]="{standalone: true}" required>
+            </kendo-textbox>
+            <div *ngIf="idCard.invalid && (idCard.dirty || idCard.touched)">
+              <div *ngIf="idCard.errors?.required" style="color: red;">{{"AUTH.VALIDATION.REQUIRED_FIELD" |
+                translate}}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-6">
+          <label class="col-lg-4 col-form-label required fw-bold fs-6">ชื่อ-นามสกุล</label>
+          <div class="col-lg-8">
+            <div class="row">
+              <div class="col-lg-6 fv-row">
+                <kendo-textbox #firstname="ngModel" class="form-control form-control-lg form-control-solid mb-3
+                      mb-lg-0" placeholder='กรุณากรอกชื่อจริง' pattern="{{ LETTERS_AND_SPACES_PATTERN_TH.source }}"
+                  [maxlength]="80" [(ngModel)]="_user.firstname" (valueChange)="checkButton()"
+                  [ngModelOptions]="{standalone: true}" required>
+                </kendo-textbox>
+                <div *ngIf="firstname.invalid && (firstname.dirty || firstname.touched)">
+                  <div *ngIf="firstname.errors?.required" style="color: red;">{{"AUTH.VALIDATION.REQUIRED_FIELD" |
+                    translate}}</div>
+                </div>
+              </div>
+
+              <div class="col-lg-6 fv-row">
+                <kendo-textbox #lastname="ngModel" class="form-control form-control-lg form-control-solid mb-3
+                      mb-lg-0" placeholder='กรุณากรอกนามสกุล' pattern="{{ LETTERS_AND_SPACES_PATTERN_TH.source }}"
+                  [maxlength]="80" [(ngModel)]='_user.lastname' (valueChange)="checkButton()"
+                  [ngModelOptions]="{standalone: true}" required>
+                </kendo-textbox>
+                <div *ngIf="lastname.invalid && (lastname.dirty || lastname.touched)">
+                  <div *ngIf="lastname.errors?.required" style="color: red;">{{"AUTH.VALIDATION.REQUIRED_FIELD" |
+                    translate}}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-6">
+          <label class="col-lg-4 col-form-label fw-bold fs-6"><span class="required">เบอร์โทรศัพท์</span></label>
+          <div class="col-lg-8 fv-row">
+            <kendo-maskedtextbox #phone="ngModel" class="form-control form-control-lg form-control-solid"
+              mask="(999)-0000-000" pattern="{{ PHONE.source }}" [(ngModel)]="_user.phone" (valueChange)="checkButton()"
+              [ngModelOptions]="{standalone: true}" required>
+            </kendo-maskedtextbox>
+            <div *ngIf="phone.invalid && (phone.dirty || phone.touched)">
+              <div *ngIf="phone.errors?.required">{{"AUTH.VALIDATION.REQUIRED_FIELD" | translate}}</div>
+              <div *ngIf="phone.errors?.pattern">{{"AUTH.VALIDATION.INVALID_PHONE" | translate}}</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-6">
+          <label class="col-lg-4 col-form-label fw-bold fs-6"><span class="required">ที่อยู่</span></label>
+          <div class="col-lg-8 fv-row">
+            <kendo-textbox #address="ngModel" class="form-control form-control-lg form-control-solid mb-3
+                    mb-lg-0" placeholder='กรุณากรอกที่อยู่' pattern="{{ LETTERS_AND_SPACES_PATTERN_TH.source }}"
+              [maxlength]="80" [(ngModel)]="_user.addressDescription" (valueChange)="checkButton()"
+              [ngModelOptions]="{standalone: true}" required>
+            </kendo-textbox>
+            <div *ngIf="address.invalid && (address.dirty || address.touched)">
+              <div *ngIf="address.errors?.required" style="color: red;">{{"AUTH.VALIDATION.REQUIRED_FIELD" |
+                translate}}</div>
+            </div>
+          </div>
+        </div>
+        <br><br>
+      </div>
+
+    </form>
+  </div>
+</div>

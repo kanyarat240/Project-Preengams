@@ -1,0 +1,45 @@
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\bin\Debug\net7.0\Domain.deps.json
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\bin\Debug\net7.0\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\bin\Debug\net7.0\Domain.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\refint\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\ref\Domain.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\bin\Debug\net7.0\Line.Messaging.dll
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\bin\Debug\net7.0\Line.Messaging.pdb
+C:\Users\PERT CPM\OneDrive\เอกสาร\soft-trainee-management\Core\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\Project_Preengam\Core\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Project_Preengam\Core\Domain\bin\Debug\net7.0\Domain.dll
+D:\Project_Preengam\Core\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Project_Preengam\Core\Domain\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project_Preengam\Core\Domain\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.dll
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Project_Preengam\Core\Domain\obj\Debug\net7.0\ref\Domain.dll
+D:\Project-Preengam\Core\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Project-Preengam\Core\Domain\bin\Debug\net7.0\Domain.dll
+D:\Project-Preengam\Core\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Project-Preengam\Core\Domain\bin\Debug\net7.0\Line.Messaging.dll
+D:\Project-Preengam\Core\Domain\bin\Debug\net7.0\Line.Messaging.pdb
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.csproj.AssemblyReference.cache
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.csproj.CopyComplete
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.dll
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Project-Preengam\Core\Domain\obj\Debug\net7.0\ref\Domain.dll
